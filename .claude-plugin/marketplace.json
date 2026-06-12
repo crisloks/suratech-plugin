@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "suratech",
+  "description": "Plugins del equipo Suratech Chile — agentes, skills y estándares compartidos",
+  "owner": {
+    "name": "Suratech Chile"
+  },
+  "plugins": [
+    {
+      "name": "suratech",
+      "description": "Tooling compartido del equipo Suratech — agentes, skills y estándares",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/crisloks/suratech-plugin.git",
+        "sha": "e87fe18"
+      },
+      "homepage": "https://github.com/crisloks/suratech-plugin"
+    }
+  ]
+}
