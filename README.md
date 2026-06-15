@@ -1,6 +1,6 @@
 # Suratech Plugin
 
-Plugin de Claude Code para el equipo de Suratech Chile.
+Plugin de Claude Code para el equipo de Suratech.
 
 ## Instalación
 
@@ -8,31 +8,17 @@ Plugin de Claude Code para el equipo de Suratech Chile.
 claude plugin install github:crisloks/suratech-plugin
 ```
 
-## Requisitos
-
-- Claude Code instalado
-- Abrir Claude Code desde el directorio raíz del proyecto SURA (donde vive `gobierno-arquitectura/`)
-
 ## Contenido actual
 
-| Directorio | Estado | Descripción |
+| Artefacto | Estado | Descripción |
 |---|---|---|
-| `agents/construir-historia` | ✅ Activo | Ensambla historias técnicas completas para Azure DevOps |
+| `CLAUDE.md` | ✅ Activo | Lineamientos de equipo: identidad, validación, idioma, colaboración |
 | `skills/` | 🔜 Próximo | Slash commands por capa tecnológica |
 | `hooks/` | 🔜 Próximo | Automatizaciones (on-spec-change, on-pr-open) |
-| `standards/` | 🔜 Próximo | Estándares técnicos versionados (API, seguridad, logging, testing) |
 
-## Uso
+## Agentes del equipo
 
-Una vez instalado el plugin, invocar el agente desde una sesión de Claude Code:
-
-```
-Construye la historia TS-MOK-03
-```
-
-```
-Necesito una historia para exponer GET /v1/autos/planes para que Frontend consulte los planes disponibles
-```
+Los agentes viven en cada proyecto, no en el plugin. Al abrir un proyecto del equipo en Claude Code, el `CLAUDE.md` del proyecto indica qué agentes están disponibles y cómo invocarlos.
 
 ## Actualizar el plugin
 
